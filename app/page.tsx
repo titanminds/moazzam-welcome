@@ -15,7 +15,7 @@ export default function Home() {
       <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>
         👋 Welcome, Moazzam Hussain
       </h1>
-      <p style={{ fontSize: "1.5rem" }}>Your Next.js app is live!</p>
+      <p style={{ fontSize: "1.5rem" }}>Your Net.js app is live!</p>
     </div>
   );
 }
