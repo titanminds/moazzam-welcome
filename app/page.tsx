@@ -15,7 +15,7 @@ export default function Home() {
       <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>
         👋 Welcome, Moazzam Hussain
       </h1>
-      <p style={{ fontSize: "1.5rem" }}>Hi this </p>
+      <p style={{ fontSize: "1.5rem" }}>Titan Minds 9 </p>
     </div>
   );
 }
