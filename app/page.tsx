@@ -1,21 +1,13 @@
-export default function Home() {
+import Navbar from '@/app/components/Navbar'
+import ThreeButtons from '@/app/components/ThreeButtons'
+
+export default function Page() {
   return (
-    <div
-      style={{
-        height: "100vh",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: "#0a0a0a",
-        color: "#fbbf24",
-        fontFamily: "Poppins, sans-serif",
-      }}
-    >
-      <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>
-        👋 Welcome, Moazzam Hussain
-      </h1>
-      <p style={{ fontSize: "1.5rem" }}>Tit Minds  </p>
+    <div className="min-h-screen bg-gray-950 text-white">
+      <Navbar />
+      <main className="max-w-5xl mx-auto p-6">
+        <ThreeButtons />
+      </main>
     </div>
-  );
+  )
 }
